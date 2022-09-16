@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FD616C8ED797F490FFDA8D8 /* Pods_DictionaryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD56A55C949927C8AE3E069F /* Pods_DictionaryApp.framework */; };
 		65B0014328CE2CE6004ACC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0014228CE2CE6004ACC97 /* AppDelegate.swift */; };
 		65B0014528CE2CE6004ACC97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0014428CE2CE6004ACC97 /* SceneDelegate.swift */; };
 		65B0014728CE2CE6004ACC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0014628CE2CE6004ACC97 /* ViewController.swift */; };
 		65B0014A28CE2CE6004ACC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B0014828CE2CE6004ACC97 /* Main.storyboard */; };
 		65B0014C28CE2CE6004ACC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B0014B28CE2CE6004ACC97 /* Assets.xcassets */; };
 		65B0014F28CE2CE6004ACC97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B0014D28CE2CE6004ACC97 /* LaunchScreen.storyboard */; };
+		65B0015928CE2DA2004ACC97 /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0015828CE2DA2004ACC97 /* WordCell.swift */; };
+		65B0015B28CE2EF4004ACC97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65B0015A28CE2EF4004ACC97 /* GoogleService-Info.plist */; };
+		65B0015E28CE325F004ACC97 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0015D28CE325F004ACC97 /* Words.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,12 @@
 		65B0014B28CE2CE6004ACC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B0014E28CE2CE6004ACC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B0015028CE2CE6004ACC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B0015828CE2DA2004ACC97 /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		65B0015A28CE2EF4004ACC97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65B0015D28CE325F004ACC97 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		6B9E82F776831895362418A0 /* Pods-DictionaryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryApp.release.xcconfig"; path = "Target Support Files/Pods-DictionaryApp/Pods-DictionaryApp.release.xcconfig"; sourceTree = "<group>"; };
+		B776766D643EB6B1D15D7983 /* Pods-DictionaryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryApp.debug.xcconfig"; path = "Target Support Files/Pods-DictionaryApp/Pods-DictionaryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CD56A55C949927C8AE3E069F /* Pods_DictionaryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DictionaryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD616C8ED797F490FFDA8D8 /* Pods_DictionaryApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				65B0014128CE2CE6004ACC97 /* DictionaryApp */,
 				65B0014028CE2CE6004ACC97 /* Products */,
+				D253B0512AD28B410D5AE001 /* Pods */,
+				9626868744E7660FCA34A31B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +73,31 @@
 				65B0014428CE2CE6004ACC97 /* SceneDelegate.swift */,
 				65B0014628CE2CE6004ACC97 /* ViewController.swift */,
 				65B0014828CE2CE6004ACC97 /* Main.storyboard */,
+				65B0015D28CE325F004ACC97 /* Words.swift */,
+				65B0015828CE2DA2004ACC97 /* WordCell.swift */,
 				65B0014B28CE2CE6004ACC97 /* Assets.xcassets */,
 				65B0014D28CE2CE6004ACC97 /* LaunchScreen.storyboard */,
+				65B0015A28CE2EF4004ACC97 /* GoogleService-Info.plist */,
 				65B0015028CE2CE6004ACC97 /* Info.plist */,
 			);
 			path = DictionaryApp;
+			sourceTree = "<group>";
+		};
+		9626868744E7660FCA34A31B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD56A55C949927C8AE3E069F /* Pods_DictionaryApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D253B0512AD28B410D5AE001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B776766D643EB6B1D15D7983 /* Pods-DictionaryApp.debug.xcconfig */,
+				6B9E82F776831895362418A0 /* Pods-DictionaryApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B0015328CE2CE6004ACC97 /* Build configuration list for PBXNativeTarget "DictionaryApp" */;
 			buildPhases = (
+				B2D968A7CFC8D7E33651D589 /* [CP] Check Pods Manifest.lock */,
 				65B0013B28CE2CE6004ACC97 /* Sources */,
 				65B0013C28CE2CE6004ACC97 /* Frameworks */,
 				65B0013D28CE2CE6004ACC97 /* Resources */,
+				82F02BCC36A1D160108C976B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 65B0013628CE2CE6004ACC97;
+			packageReferences = (
+				65B0015C28CE31E4004ACC97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 65B0014028CE2CE6004ACC97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B0014F28CE2CE6004ACC97 /* LaunchScreen.storyboard in Resources */,
+				65B0015B28CE2EF4004ACC97 /* GoogleService-Info.plist in Resources */,
 				65B0014C28CE2CE6004ACC97 /* Assets.xcassets in Resources */,
 				65B0014A28CE2CE6004ACC97 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +172,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82F02BCC36A1D160108C976B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictionaryApp/Pods-DictionaryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DictionaryApp/Pods-DictionaryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DictionaryApp/Pods-DictionaryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D968A7CFC8D7E33651D589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictionaryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65B0013B28CE2CE6004ACC97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65B0014728CE2CE6004ACC97 /* ViewController.swift in Sources */,
+				65B0015928CE2DA2004ACC97 /* WordCell.swift in Sources */,
 				65B0014328CE2CE6004ACC97 /* AppDelegate.swift in Sources */,
 				65B0014528CE2CE6004ACC97 /* SceneDelegate.swift in Sources */,
+				65B0015E28CE325F004ACC97 /* Words.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +365,7 @@
 		};
 		65B0015428CE2CE6004ACC97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B776766D643EB6B1D15D7983 /* Pods-DictionaryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +394,7 @@
 		};
 		65B0015528CE2CE6004ACC97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9E82F776831895362418A0 /* Pods-DictionaryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +443,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65B0015C28CE31E4004ACC97 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 65B0013728CE2CE6004ACC97 /* Project object */;
 }
